@@ -1,0 +1,149 @@
+
+/* HOME SECTION */
+#Home_section {
+    height: 120vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Welcome Section */
+
+.card_color_text {
+    font-size: 1.5rem;
+    color: #FF0000;
+    text-align: center;
+}
+
+/* Button Styling */
+.All_Btn {
+    background-color: #508D4E;
+    border: none;
+    color: white;
+    transition: background-color 0.2s ease-in, text-decoration 0.2s ease-in;
+}
+
+.All_Btn:hover {
+    background-color:#D6EFD8;
+    text-decoration: underline;
+}
+
+/* Lazer Section */
+#Lazer_Section {
+    margin-top: 60px;
+}
+
+.Lazer {
+    display: flex;
+}
+
+.Lazer img {
+    width: 60vh;
+    margin-left: 30vh;
+    border-radius: 30px;
+}
+
+.lazer_text {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.lazer_text h3 {
+    width: 60%;
+    margin-left: 2vh;
+    text-align: start;
+    font-size: 3rem;
+    padding-bottom: 5px;
+}
+
+.Lazer p {
+    width: 40vh;
+    margin-left: 5vh;
+    text-align: start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Lazer_Btn {
+    margin-right: 60vh;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    background-color: #80AF81;
+    transition: background-color 0.2s ease-in, text-decoration 0.2s ease-in;
+}
+
+.Lazer_Btn:hover {
+    background-color: #D6EFD8;
+    text-decoration: underline;
+}
+
+/* Services Section */
+#Services_Section {
+    background-color: #80AF81;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#Services_Section h1 {
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+#Services_Section i {
+    margin-left: 49%;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.services_card {
+    text-align: center;
+}
+
+#Services_Section .card {
+    width: 18rem;
+}
+
+#Services_Section .services_card .btn {
+    background-color: #80AF81;
+    border: none;
+}
+
+#Services_Section .services_card img {
+    width: 30vh;
+    height: 30vh;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 2px;
+}
+
+/* Comments Section */
+#Coments_section{
+text-align: center;
+}
+.comments {
+   padding-left: 20vh;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.comments_container{
+    display: flex;
+    margin-bottom: 10px;
+}
+.comments_container img{
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 10vh;
+}
+.comment-content{
+    width: 70vh;
+    display: flex;
+}
+.comment-content h6{
+    padding-top: 30px;
+    padding-right: 10px;
+}
+/* Canvas Off */
+.canvasoff {
+    display: none;
+}

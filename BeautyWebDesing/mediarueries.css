@@ -1,0 +1,240 @@
+
+@media only screen and (max-width: 1024px) {
+    html{
+        height: 100vh;
+    }
+    #Nav_section ul{
+        display: none;
+    }
+    #ofcanvas{
+        display: block;
+    }
+
+    /* Whatsapp İcon */
+    #whatsapp-icon {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1;
+        height: 60px;
+        background-color: #25d366;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: white;
+        padding: 0 15px;
+        font-size: 20px; /* Font boyutunu ayarlama */
+    }
+    
+    /* İkonu doğru hizalama */
+    #whatsapp-icon i {
+        font-size: 30px; /* İkon boyutunu ayarlama */
+    }
+    
+    /* Yazı balonunu stillendirme */
+    #whatsapp-icon-text {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    #Home_section{
+       height: 60vh; 
+        width: 100%;
+        margin: 0 auto;
+    }
+    #carouselExampleCaptions{
+        padding-top: 10vh;
+    }
+    #Welcome_seciton{
+        width: 100%;
+    }
+    #Welcome_seciton .card{
+         width: 40vh; 
+        /* height: 20vh; */
+        background-color: white;
+    }
+    #Welcome_seciton .card_1{
+        margin: 0 auto;
+        /* margin-left: 20%; */
+    }
+    #Welcome_seciton .card_2{
+        margin: 0 auto;
+        /* margin-left: 10%; */
+    }
+    #Welcome_seciton .card_3{
+        margin: 0 auto;
+        /* margin-left: 10%; */
+    }
+    #Lazer_Seciton{
+        margin-top:30px;
+    }
+    .Lazer{
+        flex-direction: column;
+    }
+    .Lazer img{
+        width: 40vh;
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+    .lazer_text{
+        font-size: 1rem;
+        margin-top: 2vh;
+        text-align: center;
+        }
+        .lazer_text h3{
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 2rem;
+            padding-bottom: 2px;
+        }
+        .Lazer p{
+            width: 40vh;
+            margin-left: 3vh;
+            text-align: start;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .Lazer_Btn{
+            color: white;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            background-color: #508D4E;
+        } 
+        #Services_Section{
+            background-color: #80AF81;
+            margin-top: 70px;
+            width:100%;
+        }
+        #Services_Section h1{
+            margin-bottom: 2px;
+            text-align: center;
+        }
+        #Services_Section i{
+            margin-left: 49%;
+            margin-bottom: 40px;
+            font-size: 1rem;
+            }
+        .services_card{
+                text-align: center;
+            }
+        #Services_Section .card{
+                width: 100%;
+                height: 40vh;
+            }
+            #Services_Section .services_card .btn{
+                background-color: #508D4E;
+                border: none;
+            }
+            #Services_Section .services_card img{
+                width: 20vh;
+                height: 20vh;
+                margin: 0 auto;
+                padding-top: 10px;
+                border-radius: 2px;
+            }
+            .comments {
+                padding-left: 1px;
+                display: flex;
+                flex-direction: column; 
+                flex-wrap: wrap; 
+            }
+            
+            .comments_container {
+                display: flex;
+                flex-direction: column; 
+                margin-bottom: 10px;
+                border-bottom: 1px solid #1A5319;
+                align-items: center; 
+            }
+            
+            .comments_container img {
+                margin-right: 10px;
+                border-radius: 50%;
+                width: 10vh; 
+            }
+            
+            .comment-content {
+                text-align: center;
+                width: 100%; 
+                max-width: 100%;
+                display: flex;
+                flex-direction: column; 
+            }
+            
+            .comment-content h6 {
+                font-size: bold;
+                padding-top: 2px;
+                padding-right: 10px;
+                color: black; 
+            }       
+            #endNav {
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        
+            #endNav ul li {
+                padding: 0 5px;
+            }
+        
+            footer p {
+                font-size: 1vh;
+            }
+        
+            .icons {
+                font-size: 2vh;
+            }
+
+            #Contact_container{
+                margin: 0 auto;
+                width: 80%;
+            }
+
+            .contact{
+                width: 80%;
+                margin: 0 auto; 
+                padding-top: 2px;
+                display: flex;
+                flex-direction: column;
+            }
+            .contact h2{   
+                text-align: center;
+            }
+            .contact p{
+                font-weight: bold;
+                text-align: center;
+            }
+            .contact button{
+                width: 100%;
+                padding: 20px;
+                border-radius: 15px;
+                border: none;
+                color: white;
+                background-color:#25d366;
+            }
+            .contact button:hover{
+                transition: 0.3s all ease-in-out;
+                color: black;
+                background-color:#075e54;
+            }
+            .contact iframe{
+                width: 100%;
+                padding-left: 1px;
+            }
+
+            .aboutcontainer{
+                width: 80%;
+                margin: 0 auto;
+              }
+              .col{
+                flex-direction: column;
+               margin-left: 5vh;
+              }
+              .col img{
+                width: 20vh;
+              }
+}
+

@@ -1,0 +1,99 @@
+
+.services_nav{
+  height: 12vh;
+  margin: 0 auto;
+  width: 80%;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.container ul{
+  cursor: pointer;
+  padding-top: 2vh;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container ul li{
+  list-style-type: none;
+}
+.container ul li:hover{
+  transition: 0.2s all ease-in-out;
+  color: #aab396;
+  text-decoration: underline;
+}
+.services_container{
+ padding-top: 2vh;
+  margin: 0 auto;
+  width: 50%;
+}
+.card img{
+  margin: 0 auto;
+  width: 40vh;
+}
+.card .card-title{
+  font-size: 2rem;
+}
+/* ITEM DESCRİPTİON */
+/* --------------- */
+.item_show {
+  display: block;
+}
+.item_none {
+  display: none;
+}
+.text_center {
+  text-align: center;
+}
+/* ----------- */
+/* Footer */
+
+/* Footer */
+
+
+
+@media only screen and (max-width: 1024px) {
+    #Nav_section ul {
+        display: none;
+    }
+    #ofcanvas {
+        display: block;
+    }
+    .services_nav {
+      padding-top: 1%;
+      height: 6vh;
+    }
+    .container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .container ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 0.8rem;
+    }
+    .container ul li {
+      text-align: center;
+      margin: 0 5px; 
+    }
+     .container ul{
+      font-size: 0.8rem;
+    }
+    .services_container{
+      padding-top: 2vh;
+      width: 90%;
+     }
+     .card img{
+       margin: 0 auto;
+       width: 25vh;
+     }
+     .card .card-title{
+       font-size: 1.5rem;
+     }
+     .card .card-text{
+      font-size: 0.7rem;
+     }
+}

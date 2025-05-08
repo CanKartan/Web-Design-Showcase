@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Can Kartan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Can Kartan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Hakkımda</a></li>
+          <li><a href="#experience">Yeteneklerim</a></li>
+          <li><a href="#projects">Projelerim</a></li>
+          <li><a href="#works">İş Deneyimlerim</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Can Kartan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Hakkımda</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Yeteneklerim</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projelerim</a></li>
+          <li><a href="#works" onclick="toggleMenu()">İş Deneyimlerim</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">İletişim</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img  class="Profile-img" src="./assets/Profile__IMG.png" alt="Can Kartan Profile" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Merhaba, ben</p>
+        <h1 class="title">Can Kartan</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <!-- <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CanKartan CV_tr.pdf')"
+          >
+            CV İndir
+          </button> -->
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Bağlantı Kur
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/can-kartan-448377255/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/CanKartan'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="block">
+      <p class="section__text__p1">Daha Fazla Tanıyın</p>
+      <h1 class="title">Hakkımda</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/IMG__2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Deneyim</h3>
+              <p>6+ Yıl <br />IT Destek Personeli</p>
+              <p>1+ Yıl <br />Ön Yüz Geliştirici</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Eğitim</h3>
+              <p>AKU Bilgisayar Programcılığı Ön Lisans
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Merhaba, ben Can. Şu anda JavaScript, React ve Next.js 
+              frameworkleri üzerine yoğun bir şekilde çalışarak 
+              bu alanda kendimi geliştirmeye devam ediyorum. Bu süreçte, 
+              çeşitli projeler üzerinde çalışarak teknik becerilerimi 
+              sürekli olarak genişletiyor ve derinleştiriyorum. 
+              IT sektöründeki deneyimim sayesinde teknolojiye dair sağlam 
+              bir temel bilgiye sahibim ve problem çözme yeteneklerimi 
+              yazılım geliştirme süreçlerine etkin bir şekilde entegre edebiliyorum. 
+              Son bir yıl içerisinde bu alanlarda edindiğim bilgi ve deneyimlerle 
+              yetkinliğimi artırarak profesyonel düzeyde çalışmalar yürütmeyi 
+              hedefliyorum.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience" class="block">
+      <p class="section__text__p1">Keşfet</p>
+      <h1 class="title">Yeteneklerim</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Kullandığım Teknolojiler</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Bir önceki günden daha iyi olmaya çalışıyorum.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Bir önceki günden daha iyi olmaya çalışıyorum.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind</h3>
+                  <p>Bir önceki günden daha iyi olmaya çalışıyorum.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Bir önceki günden daha iyi olmaya çalışıyorum.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Bir önceki günden daha iyi olmaya çalışıyorum.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Next.JS</h3>
+                  <p>Bir önceki günden daha iyi olmaya çalışıyorum.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Bir önceki günden daha iyi olmaya çalışıyorum.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MSSQL</h3>
+                  <p>Bir önceki günden daha iyi olmaya çalışıyorum.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects" class="block">
+      <p class="section__text__p1">Son çalışmalarım</p>
+      <h1 class="title">Projelerim</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Game Market</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/CanKartan/Game-Market'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Adam Asmaca</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/CanKartan/AdamAsmaca'"
+              >
+                Github
+              </button>
+             
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Website Tasarımlarım</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/CanKartan/Personal-Website-Desings'"
+              >
+                Github
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="works" class="block">
+        <h1 class="title">İş Deneyimlerim</h1>
+        <div class="experience-details-container">
+          <div class="job-containers">
+            <div class="details-container">
+              <div class="article-container">
+                <article class="job-article">
+                  <!-- <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  /> -->
+                  <div>
+                    <h3>Computer Numerical Control Programmer</h3>
+                    <p>May 2018 - Ağu 2018 · 4 ay</p>
+                    <h6>ALP Havacılık</h6>
+                  </div>
+                </article>
+                <article class="job-article">
+                  <!-- <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  /> -->
+                  <div>
+                    <h3>Field Support Specialist</h3>
+                    <p>Nis 2022 - Haz 2022 · 3 ay</p>
+                    <h6>Martı Technologies</h6>
+                  </div>
+                </article>
+                <article class="job-article">
+                  <!-- <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  /> -->
+                  <div>
+                    <h3>IT Specialist</h3>
+                    <p>Oca 2018 - Tem 2024 · 6 yıl 7 ay</p>
+                    <h6>Başarı Net</h6>
+                  </div>
+                </article>
+                <article class="job-article">
+                  <!-- <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  /> -->
+                  <div>
+                    <h3>Frontend Developer</h3>
+                    <p>Tem 2024 - Ağu 2024 · 2 ay</p>
+                    <h6>BilTAY Technology</h6>
+                  </div>
+                </article>
+                <article class="job-article">
+                  <!-- <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  /> -->
+                  <div>
+                    <h3>IT Specialist</h3>
+                    <p>Eyl 2024 - Halen</p>
+                    <h6>Berk İnteraktif Yazılım Sistemleri</h6>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        /> -->
+    </section>
+    <section id="contact" class="block">
+      <p class="section__text__p1">İletişime geç</p>
+      <h1 class="title">İletişim</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">cankartankartan@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/can-kartan-448377255/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Hakkımda</a></li>
+            <li><a href="#experience">Yeteneklerim</a></li>
+            <li><a href="#projects">Projelerim</a></li>
+            <li><a href="#works">İş Deneyimlerim</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Can Kartan. 
+        Her hakkı saklıdır.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/9a307e7499.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    height: 90px;
+    font-size: 10px;
+}
+
+h1{
+    margin-bottom: 10px;
+} 
+
+#contact .map{
+    width: 300px;
+    height: 300px;
+  }
+
+ /* About */
+ #about .about-items {
+    flex-direction: column;
+    align-items: center;
+}
+
+#about .about-item {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+#about .about-item .about-photo {
+    width: 50%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+#about .about-item .about-h {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+#about .about-item .about-p {
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+}
+
+.service-img img{
+    width: 400px;
+    height: 200px;
+}
+
+.service{
+    flex-direction: column;
+}
+
+#carousel-container {
+    max-width: 300px;
+    height: 200px;
+    overflow: hidden;
+  }
